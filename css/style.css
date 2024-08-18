@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+
+
+
+/* Yellow: hsl(47, 88%, 63%)
+
+- White: hsl(0, 0%, 100%)
+
+- Gray 500: hsl(0, 0%, 42%)
+- Gray 950: hsl(0, 0%, 7%) */
+
+
+.card-blog{
+    width: 375px;
+    border: 1px solid;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 20px 29px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow:  8px 10px hsl(0, 0%, 7%);
+}
+
+.card-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.card{
+    border-radius: 10px;
+    width: 325px;
+}
+
+
+.color-text{
+    margin-bottom: 10px;
+    background-color: hsl(47, 88%, 63%);
+    display: inline-block;
+    padding: 8px;
+    font-weight: 800;
+    border-radius: 10px;
+}
+
+
+
+.date{
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+
+.card-blog h1{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+
+.card-blog h1:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+
+
+
+.description{
+    margin-bottom: 20px;
+    color:  hsl(0, 0%, 42%);
+}
+
+
+
+
+.name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.name p{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.attribution{
+    margin-top: 10px;
+}
